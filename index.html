@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Calculatrice</title>
 </head>
-<body>
+  <body>
 
-<fieldset>
-	         <div id="affiche"></div>
-	    </fieldset>
+    <input type="ecran" name="ecran" id="resultat" class="resultat" value="0">
+
+  	  <br>
+	    
+         <button  class="num" value="7"> 7 </button>
+	     <button  class="num" value="8"> 8 </button>
+	     <button  class="num" value="9"> 9 </button>  
+	     <button  class="op" value="*"> * </button>
  
-	    <button  id="sept">7</button>
-	    <button  id="huit">8</button>
-	    <button  id="neuf">9</button>  
-	    <button  id="mul" data-op="Setmul">*</button>
+	  <br>	   
  
-	    <br>	   
+	     <button  class="num" value="4"> 4 </button>
+	     <button  class="num" value="5"> 5 </button>
+	     <button  class="num" value="6"> 6 </button>    
+	     <button  class="op" value="-" > - </button>
  
-	    <button  id="quatre">4</button>
-	    <button  id="cinq">5</button>
-	    <button  id="six">6</button>    
-	    <button  id="sub" data-op="Setsub">-</button>
+	  <br>
  
-	    <br>
+	     <button  class="num" value="1"> 1 </button>
+	     <button  class="num" value="2"> 2 </button>
+	     <button  class="num" value="3"> 3 </button>
+	     <button  class="op" value="/"> / </button> 
+	     <br>	
  
-	    <button  id="un">1</button>
-	    <button  id="deux">2</button>
-	    <button  id="trois">3</button>
-	    <button  id="div" data-op="Setdiv">/</button> 
-	    <br>	
- 
-	    <button  id="point">.</button>
-	    <button  id="zero">0</button>
-	    <button  id="egal">=</button> 
-	    <button  id="add" data-op="Setadd">+</button>
+	     <button  id="point"> CE </button>
+	     <button  class="num" id="zero" value="0"> 0 </button>
+	     <button  id="egal"> = </button> 
+	     <button  class="op" value="+"> + </button>
        
-	    <br>
+	  <br>
 
-<script src="app.js" type="text/javascript"></script>
-<script src="mode_modules/jquery" type="text/javascript"></script>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="app.js"></script>
 
 </body>
 </html>
